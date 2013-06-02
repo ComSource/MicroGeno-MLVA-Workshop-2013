@@ -1,12 +1,14 @@
 # MicroGeno
 
-## towards an open web-based platform for genotyping data
+> Towards an open web-based platform for genotyping data
 
 * Place: MLVA 2013 workshop, Ecole du Val-de-Grâce, Paris
 * Date: June, 5th 2013
-* Credit: Julien Maupetit - [@julienmaupetit](https://twitter.com/julienmaupetit)
+* Credits: 
+	* Julien Maupetit - [@julienmaupetit](https://twitter.com/julienmaupetit)
+	* [Agence ComSource](http://comsource.fr)
 
-### Abstract
+## Abstract
 
 MicroGeno is a still-in-development open web platform used to facilitate
 pathogenic bacteria strain genotyping. This project emerged from the strong
