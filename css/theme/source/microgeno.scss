@@ -55,6 +55,8 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 @import "../../../reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
+@import "compass/css3";
+
 // Custom rules
 .logo {
     position: absolute;
@@ -63,8 +65,28 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
     font-size: 16px!important;
 }
 
-img.no-effect {
-    border: 0!important;
-    background: 0!important;
-    box-shadow: 0 0 0!important;
+img{
+    &.no-effect {
+        border: 0!important;
+        background: 0!important;
+        box-shadow: 0 0 0!important;
+    }
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+svg {
+    path {
+        fill: $mainColor;
+    }
+    &.replaced-svg {
+        width: 400px;
+        height: 400px;
+    }
 }

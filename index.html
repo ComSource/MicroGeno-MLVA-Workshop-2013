@@ -47,6 +47,12 @@
 
 		</div> <!-- /.reveal -->
 
+
+		<!-- SVG Images styling -->
+		<script src="javascripts/vendor/jquery-2.0.2.min.js"></script>
+		<script src="javascripts/svg.js"></script>
+
+		<!-- Reveal.js -->
 		<script src="reveal.js/lib/js/head.min.js"></script>
 		<script src="reveal.js/js/reveal.min.js"></script>
 
@@ -67,7 +73,12 @@
 				dependencies: [
 					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/markdown/markdown.js',
+					  condition: function() { return !!document.querySelector( '[data-markdown]' ); },
+					  callback: function(){
+					  	inline_svg();
+					  }
+					},
 					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
