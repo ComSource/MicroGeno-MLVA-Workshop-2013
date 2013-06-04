@@ -17,9 +17,14 @@
 
 1. Who's behind MicroGeno?
 2. The past,
+<<<<<<< HEAD
 3. The present,
 4. The future of MicroGeno.
 5. Live demo
+=======
+3. The present (demo),
+4. The future of MicroGeno.
+>>>>>>> master
 
 ---
 
