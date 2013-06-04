@@ -60,9 +60,15 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 // Custom rules
 .logo {
     position: absolute;
-    top: 20px;
+    bottom: 20px;
     left: 20px;
     font-size: 16px!important;
+}
+
+strong {
+    font-family: 'SourceSansProRegular', sans-serif!important;
+    font-style: normal !important;
+    font-weight: normal !important;
 }
 
 img{
@@ -71,6 +77,11 @@ img{
         background: 0!important;
         box-shadow: 0 0 0!important;
     }
+}
+
+blockquote {
+    margin-top: 20px!important;
+    padding-top: 20px!important;
 }
 
 .left {
@@ -88,5 +99,8 @@ svg {
     &.replaced-svg {
         width: 400px;
         height: 400px;
+    }
+    &.rotate {
+        @include rotate(45deg);
     }
 }

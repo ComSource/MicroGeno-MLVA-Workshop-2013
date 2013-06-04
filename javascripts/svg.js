@@ -11,7 +11,6 @@ function inline_svg(){
         var imgWidth = $img.attr('width');
 
         jQuery.get(imgURL, function(data) {
-                console.log('tyo');
                 // Get the SVG tag, ignore the rest
                 var $svg = jQuery(data).find('svg');
 
