@@ -25,12 +25,9 @@ application.
 
 For more information about MicroGeno, please visit:
 [microgeno.org](http://microgeno.org)
-<<<<<<< HEAD
-=======
 
 ## Watch now!
 
 Watch this presentation in your browser here:
 
 [http://comsource.github.io/MicroGeno-MLVA-Workshop-2013/](http://comsource.github.io/MicroGeno-MLVA-Workshop-2013/)
->>>>>>> master
