@@ -1,0 +1,106 @@
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import "../../../reveal.js/css/theme/template/mixins";
+@import "../../../reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+// --- Include theme-specific fonts
+@import "fonts";
+
+// --- Override settings
+// Colors
+$mainColor: #e5e5e5;
+$secondaryColor: #081f31;
+$tertiaryColor: #3d799e;
+
+// Background of the presentation
+$backgroundColor: $secondaryColor;
+
+// Primary/body text
+$mainFont: 'SourceSansProExtraLight', sans-serif;
+$mainFontSize: 36px;
+
+// Headings
+$headingFont: 'SourceSansProLight', Impact, sans-serif;
+$headingColor: #eee;
+$headingLineHeight: 0.9em;
+$headingLetterSpacing: 0.02em;
+$headingTextTransform: normal;
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+$heading1TextShadow: $headingTextShadow;
+
+// Links and actions
+$linkColor: lighten($tertiaryColor, 30%);
+$linkColorHover: $secondaryColor;
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+
+// Override theme settings (see ../template/settings.scss)
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+
+// Background generator
+@mixin bodyBackground() {
+    @include radial-gradient( rgba($secondaryColor,1), rgba($tertiaryColor,1) );
+}
+
+// Theme template ------------------------------
+@import "../../../reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+@import "compass/css3";
+
+// Custom rules
+.logo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px!important;
+}
+
+strong {
+    font-family: 'SourceSansProRegular', sans-serif!important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+img{
+    &.no-effect {
+        border: 0!important;
+        background: 0!important;
+        box-shadow: 0 0 0!important;
+    }
+}
+
+blockquote {
+    margin-top: 20px!important;
+    padding-top: 20px!important;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+svg {
+    path {
+        fill: $mainColor;
+    }
+    &.replaced-svg {
+        width: 400px;
+        height: 400px;
+    }
+    &.rotate {
+        @include rotate(45deg);
+    }
+}
