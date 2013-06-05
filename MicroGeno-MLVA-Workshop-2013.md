@@ -141,9 +141,17 @@
 
 ---
 
-# Credits
+## Thank you!
 
-### Icons
+<hr/>
+
+### Availability
+
+This presentation is available at [https://github.com/ComSource/](https://github.com/ComSource/)
+
+<hr/>
+
+### Icons credit
 
 <a href="http://thenounproject.com/noun/cassette/#icon-No911" target="_blank">Cassette</a> designed by <a href="http://thenounproject.com/pavel.andreev" target="_blank">Pavel Andreev</a> from The Noun Project
 
@@ -153,7 +161,7 @@
 
 ### Disclaimer
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
-
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="images/cc_88x31.png" /></a>
 
