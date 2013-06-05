@@ -217,6 +217,10 @@ blockquote {
   padding-top: 20px !important;
 }
 
+h3 {
+  margin-top: 30px !important;
+}
+
 .left {
   float: left;
 }
